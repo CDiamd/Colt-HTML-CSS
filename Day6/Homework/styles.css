@@ -1,0 +1,42 @@
+/*Body Background Color*/
+body {
+  background-color: lightsteelblue;
+  border: 10px solid steelblue;
+}
+/*all h2 elements text color*/
+h2 {
+  color: darkblue;
+}
+
+/*all <i> elements text color & font size*/
+i {
+  color: lightyellow;
+  font-size: 40px;
+}
+/*Superscript text color & font size*/
+sup {
+  color: orangered;
+  font-size: 20px;
+}
+/*h1 background color and make it Inline*/
+h1 {
+  background-color: aquamarine;
+  display: inline;
+}
+/*give ordered list 2px wide dashed orangered border*/
+ol {
+  border: 2px dashed orangered;
+}
+/*make image 300px wide and make it take up a whole line*/
+image {
+  display: block;
+  width: 300px;
+}
+/*make the horizontal line rule disappear using css*/
+hr {
+  display: none;
+}
+/*make all <li> elements uppercase*/
+li {
+  text-transform: uppercase;
+}

@@ -1,0 +1,49 @@
+/* 
+THE ONLY PROPERTIES YOU NEED:
+- display 
+- border properties
+- margin properties
+- padding properties
+- width & height
+- background-color
+- color
+- box sizing
+*/
+
+li {
+  display: inline-block;
+}
+a {
+  border-right: 1px solid black;
+  margin-left: 5px;
+  padding-right: 10px;
+}
+#gallery img {
+  height: 200px;
+  width: 300px;
+  border-right: 5px solid red;
+  padding: 5px;
+  background-color: orange;
+  margin: 0 10px;
+}
+#gallery img:hover {
+  background-color: cyan;
+}
+#register-form {
+  margin-top: 20px;
+  border-top: 5px solid grey;
+  width: 400px;
+}
+#register-form button {
+  display: block;
+  width: 400px;
+  height: 35px;
+  background-color: steelblue;
+}
+#register-form input {
+  display: block;
+  width: 400px;
+  height: 35px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
